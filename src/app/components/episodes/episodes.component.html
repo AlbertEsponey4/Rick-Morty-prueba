@@ -18,7 +18,7 @@
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="['id', 'episode', 'name']"></tr>
-      <tr mat-row *matRowDef="let row; columns: ['id', 'episode', 'name'];" (click)="onRowClicked(row)"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['id', 'episode', 'name'];" (click)="onRowClicked(row)" class="mat-row"></tr>
     </table>
     <mat-paginator #paginator [pageSize]="10" [showFirstLastButtons]="true"></mat-paginator>
   </div>

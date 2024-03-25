@@ -6,6 +6,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { CharcaterService } from '../../services/charcater.service';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-episodes',
   templateUrl: './episodes.component.html',

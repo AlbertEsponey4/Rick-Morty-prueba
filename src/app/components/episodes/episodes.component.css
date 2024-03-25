@@ -1,0 +1,23 @@
+
+
+.mat-row:hover,
+.mat-row:hover .mat-column-name {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.mat-row:hover,
+.mat-row:hover .mat-column-id {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+
+.mat-row:hover,
+.mat-row:hover .mat-column-episode {
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+
+  
