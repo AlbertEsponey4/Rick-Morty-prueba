@@ -10,7 +10,7 @@ import { CharcaterService } from '../../services/charcater.service';
 })
 export class CharactersComponent implements OnInit {
   public characters: Character[] = [];
-  private episodeId: number | null = null;
+  public episodeId: number | null = null;
 
   constructor(
     private charcaterService: CharcaterService,
