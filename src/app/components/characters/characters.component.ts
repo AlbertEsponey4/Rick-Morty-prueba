@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Character } from '../../interfaces/character';
-import { CharcaterService } from '../../services/charcater.service';
+import { CharacterService } from '../../services/character.service';
 
 @Component({
   selector: 'app-characters',
@@ -13,7 +13,7 @@ export class CharactersComponent implements OnInit {
   public episodeId: number | null = null;
 
   constructor(
-    private charcaterService: CharcaterService,
+    private charcaterService: CharacterService,
     private route: ActivatedRoute
   ) {}
 
