@@ -3,7 +3,7 @@ import { EpisodeService } from '../../services/episode.service';
 import { Episode } from '../../interfaces/episode';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
-import { CharcaterService } from '../../services/charcater.service';
+import { CharacterService } from '../../services/character.service';
 import { Router } from '@angular/router';
 
 
@@ -17,7 +17,7 @@ export class EpisodesComponent implements OnInit {
   public dataSource!: MatTableDataSource<Episode>;
   @ViewChild(MatPaginator, {static: true}) paginator!: MatPaginator;
 
-  constructor(private episodeService: EpisodeService, private characterService: CharcaterService, private router: Router) {}
+  constructor(private episodeService: EpisodeService, private characterService: CharacterService, private router: Router) {}
   ngOnInit(): void {
     this.getEpisodes();
   }
