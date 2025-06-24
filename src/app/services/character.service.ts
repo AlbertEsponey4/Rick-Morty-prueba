@@ -6,7 +6,7 @@ import { Character } from '../interfaces/character';
 @Injectable({
   providedIn: 'root'
 })
-export class CharcaterService {
+export class CharacterService {
 
   private apiUrl = 'https://rickandmortyapi.com/api';
 
